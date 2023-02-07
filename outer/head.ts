@@ -1,4 +1,4 @@
-    <mj-head>
+    '<mj-head>
       <mj-title>Hello world</mj-title>
       <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:300,500"></mj-font>
       <mj-attributes>
@@ -6,4 +6,4 @@
         <mj-text font-weight="300" font-size="16px" color="#616161" line-height="24px"></mj-text>
         <mj-section padding="0px"></mj-section>
       </mj-attributes>
-    </mj-head>
+    </mj-head>';

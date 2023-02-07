@@ -1,4 +1,4 @@
-      <mj-section>
+      '<mj-section>
         <mj-column width="65%">
           <mj-image align="left" width="150px" href="https://recast.ai?ref=newsletter" src="https://cdn.recast.ai/newsletter/recast-ai-01.png"></mj-image>
         </mj-column>
@@ -23,4 +23,4 @@
             </tr>
           </mj-table>
         </mj-column>
-      </mj-section>
+      </mj-section>';
