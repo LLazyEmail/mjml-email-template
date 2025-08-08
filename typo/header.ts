@@ -19,3 +19,14 @@
 // };
 
 // export default Header;
+
+
+// plain js version
+// const Header = (attrs, children) => {
+//   const styleAttr = attrs && attrs.style ? attrs.style + '; font-size:24px; margin:20px 0;' : 'font-size:24px; margin:20px 0;';
+//   const otherAttrs = Object.entries(attrs || {})
+//     .filter(([k]) => k !== 'style')
+//     .map(([k, v]) => `${k}="${v}"`)
+//     .join(" ");
+//   return `<h1 style="${styleAttr}" ${otherAttrs}>${children}</h1>`;
+// };
