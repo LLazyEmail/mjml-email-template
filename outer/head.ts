@@ -7,3 +7,26 @@
         <mj-section padding="0px"></mj-section>
       </mj-attributes>
     </mj-head>';
+
+
+
+
+// ts
+
+// import { Tag } from "../types";
+
+// const Head: Tag = (attrs, children) => {
+//   const { style } } = attrs || {};
+//   const styleAttr = style ?? "";
+//   return `<head style="${styleAttr}">${children}</head>`;
+// };
+
+// export default Head;
+
+
+// js
+
+// const Head = (attrs, children) => {
+//   const styleAttr = attrs && attrs.style ? attrs.style : "";
+//   return `<head style="${styleAttr}">${children}</head>`;
+// };
