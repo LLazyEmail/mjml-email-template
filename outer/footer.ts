@@ -24,3 +24,29 @@
           </mj-table>
         </mj-column>
       </mj-section>';
+
+
+
+
+// ts
+
+
+// import { Tag } from "../types";
+
+// const Footer: Tag = (attrs, children) => {
+//   const { style } } = attrs || {};
+//   const styleAttr = style ?? "margin-top:20px; font-size:12px; color:#999;";
+//   return `<footer style="${styleAttr}">${children}</footer>`;
+// };
+
+// export default Footer;
+
+
+
+js
+
+
+// const Footer = (attrs, children) => {
+//   const styleAttr = attrs && attrs.style ? attrs.style : "margin-top:20px; font-size:12px; color:#999;";
+//   return `<footer style="${styleAttr}">${children}</footer>`;
+// };
