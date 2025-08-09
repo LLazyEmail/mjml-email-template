@@ -115,6 +115,8 @@ components/
 ```
 
 
+
+
 Each component file exports a function with consistent pattern (attrs, children).
 
 6. Validation & Testing
