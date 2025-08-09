@@ -11,3 +11,25 @@
           <mj-image width="100px" href="https://blog.recast.ai/module-faster-shadow/" src="https://cdn.recast.ai/newsletter/183.png"></mj-image>
         </mj-column>
       </mj-section>';
+
+
+
+
+// ts
+// import { Tag } from "../types";
+
+// const Article: Tag = (attrs, children) => {
+//   const { style } } = attrs || {};
+//   const styleAttr = style ?? "margin:20px 0;";
+//   return `<article style="${styleAttr}">${children}</article>`;
+// };
+
+// export default Article;
+
+Plain JS version:
+js
+Copy
+const Article = (attrs, children) => {
+  const styleAttr = attrs && attrs.style ? attrs.style : "margin:20px 0;";
+  return `<article style="${styleAttr}">${children}</article>`;
+};
