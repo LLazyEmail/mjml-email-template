@@ -26,3 +26,28 @@
 //   return `<body style="${styleAttr}">${children}</body>`;
 // };
 
+
+// ---
+
+//   import { Tag } from "../types";
+
+// const Body: Tag = (attrs, children) => {
+//   return `<mj-body>
+// </mj-body>`;
+// };
+
+// export default Body;
+
+
+// const Body = (attrs, children) => {
+//   return `<mj-body>
+// </mj-body>`;
+// };
+
+
+// const result = Body({ style: "some-style" }, "any children");
+// console.log(result);
+
+
+
+
