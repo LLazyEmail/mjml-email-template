@@ -26,10 +26,55 @@
 
 // export default Article;
 
-Plain JS version:
-js
-Copy
-const Article = (attrs, children) => {
-  const styleAttr = attrs && attrs.style ? attrs.style : "margin:20px 0;";
-  return `<article style="${styleAttr}">${children}</article>`;
-};
+// ---
+      
+// js
+
+// const Article = (attrs, children) => {
+//   const styleAttr = attrs && attrs.style ? attrs.style : "margin:20px 0;";
+//   return `<article style="${styleAttr}">${children}</article>`;
+// };
+
+
+// import { Tag } from "../types";
+
+// const Article: Tag = (attrs, children) => {
+//   // You can still accept attrs and children if you want,
+//   // but ignore their values and return the static string
+//   return `<mj-section>
+//         <mj-column width="75%">
+//           <mj-text>
+//             <h3 style="font-weight: bold; margin-top: 0; margin-bottom: 0"> <a href="https://blog.recast.ai/module-faster-shadow/" style="color: #3498DB; text-decoration: none">
+//                 Modules, are you faster than your shadows?
+//               </a> </h3>
+//             <p style="font-size: 14px">As a developer, should you use modules or code this bit of feature by yourself? Let's find out.</p>
+//           </mj-text>
+//         </mj-column>
+//         <mj-column width="25%">
+//           <mj-image width="100px" href="https://blog.recast.ai/module-faster-shadow/" src="https://cdn.recast.ai/newsletter/183.png"></mj-image>
+//         </mj-column>
+//       </mj-section>`;
+// };
+
+
+// const Article = (attrs, children) => {
+//   // parameters are accepted but ignored
+//   return `<mj-section>
+//         <mj-column width="75%">
+//           <mj-text>
+//             <h3 style="font-weight: bold; margin-top: 0; margin-bottom: 0"> <a href="https://blog.recast.ai/module-faster-shadow/" style="color: #3498DB; text-decoration: none">
+//                 Modules, are you faster than your shadows?
+//               </a> </h3>
+//             <p style="font-size: 14px">As a developer, should you use modules or code this bit of feature by yourself? Let's find out.</p>
+//           </mj-text>
+//         </mj-column>
+//         <mj-column width="25%">
+//           <mj-image width="100px" href="https://blog.recast.ai/module-faster-shadow/" src="https://cdn.recast.ai/newsletter/183.png"></mj-image>
+//         </mj-column>
+//       </mj-section>`;
+// };
+
+
+// You can pass any parameters; they will be ignored
+// const result = Article({ some: 'value' }, null);
+// console.log(result);
