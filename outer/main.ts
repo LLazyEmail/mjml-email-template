@@ -1,7 +1,7 @@
-'<mjml>
+// '<mjml>
 
 
-</mjml>';
+// </mjml>';
 
 
 
@@ -38,8 +38,8 @@
 // </mjml>`;
 // };
 
-const result = Main({ someAttr: 'value' }, null);
-console.log(result);
+// const result = Main({ someAttr: 'value' }, null);
+// console.log(result);
 
 
 
