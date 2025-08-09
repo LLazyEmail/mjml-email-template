@@ -9,3 +9,17 @@ const Paragraph = (attrs, children) => {
   const styleAttr = style || "margin: 15px 0; line-height: 1.5;";
   return `<p style="${styleAttr}">${children}</p>`;
 };
+
+
+2. paragraph.ts
+ts
+Copy
+import { Tag } from "../types";
+
+const Paragraph: Tag = (attrs, children) => {
+  const { style } } = attrs || {};
+  const styleAttr = style ?? "margin: 15px 0; line-height: 1.5;";
+  return `<p style="${styleAttr}">${children}</p>`;
+};
+
+export default Paragraph;
